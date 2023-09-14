@@ -49,9 +49,9 @@
 
                         <div class="tab-content">
                             <div id="description" class="container tab-pane active">
-                                <h4>Product description</h4>
+                                <h4>Descripcion:</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque. Suspendisse sit amet neque neque. Praesent suscipit et magna eu iaculis. Donec arcu libero, commodo ac est a, malesuada finibus dolor. Aenean in ex eu velit semper fermentum. In leo dui, aliquet sit amet eleifend sit amet, varius in turpis. Maecenas fermentum ut ligula at consectetur. Nullam et tortor leo. 
+                                    {{ $product->description }}
                                 </p>
                             </div>
                             <div id="reviews" class="container tab-pane fade">
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="product-image">
                                     <a href="product-detail.html">
-                                        <img src="img/product-10.jpg" alt="Product Image">
+                                        <img src="{{asset('img')}}/product-10.jpg" alt="Product Image">
                                     </a>
                                     <div class="product-action">
                                         <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="product-image">
                                     <a href="product-detail.html">
-                                        <img src="img/product-8.jpg" alt="Product Image">
+                                        <img src="{{asset('img')}}/product-8.jpg" alt="Product Image">
                                     </a>
                                     <div class="product-action">
                                         <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -182,7 +182,7 @@
                                 </div>
                                 <div class="product-image">
                                     <a href="product-detail.html">
-                                        <img src="img/product-6.jpg" alt="Product Image">
+                                        <img src="{{asset('img')}}/product-6.jpg" alt="Product Image">
                                     </a>
                                     <div class="product-action">
                                         <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="product-image">
                                     <a href="product-detail.html">
-                                        <img src="img/product-4.jpg" alt="Product Image">
+                                        <img src="{{asset('img')}}/product-4.jpg" alt="Product Image">
                                     </a>
                                     <div class="product-action">
                                         <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="product-image">
                                     <a href="product-detail.html">
-                                        <img src="img/product-2.jpg" alt="Product Image">
+                                        <img src="{{asset('img')}}/product-2.jpg" alt="Product Image">
                                     </a>
                                     <div class="product-action">
                                         <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -296,7 +296,7 @@
                             </div>
                             <div class="product-image">
                                 <a href="product-detail.html">
-                                    <img src="img/product-7.jpg" alt="Product Image">
+                                    <img src="{{asset('img')}}/product-7.jpg" alt="Product Image">
                                 </a>
                                 <div class="product-action">
                                     <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -322,7 +322,7 @@
                             </div>
                             <div class="product-image">
                                 <a href="product-detail.html">
-                                    <img src="img/product-8.jpg" alt="Product Image">
+                                    <img src="{{asset('img')}}/product-8.jpg" alt="Product Image">
                                 </a>
                                 <div class="product-action">
                                     <a href="#"><i class="fa fa-cart-plus"></i></a>
@@ -348,7 +348,7 @@
                             </div>
                             <div class="product-image">
                                 <a href="product-detail.html">
-                                    <img src="img/product-9.jpg" alt="Product Image">
+                                    <img src="{{asset('img')}}/product-9.jpg" alt="Product Image">
                                 </a>
                                 <div class="product-action">
                                     <a href="#"><i class="fa fa-cart-plus"></i></a>
